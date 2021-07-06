@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #9fa1a4;
+  line-height: 1.5;
+}
+
+a {
+  color: #777;
+  transition: .3s all ease;
+}
+
+a:hover {
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+.container {
+  z-index: 2;
+  position: relative;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-primary {
+  color: #2d71a1 !important;
+}
+
+.border-top {
+  border-top: 1px solid #f2f2f2 !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #f2f2f2 !important;
+}
+
+figure figcaption {
+  margin-top: .5rem;
+  font-style: italic;
+  font-size: .8rem;
+}
+
+section {
+  overflow: hidden;
+}
+
+.section {
+  padding: 7rem 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Default btn sre-tyling */
+.btn {
+  border: none;
+  width: 30%; 
+  font-weight:600; 
+  font-size:16px; 
+  padding: 8px 25px !important;
+  border-radius:0 !important;
+}
+
+.btn.btn-outline-white {
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+}
+
+.btn.btn-outline-white:hover {
+  background: #fff;
+  color: #2d71a1;
+}
+
+.btn.btn-primary {
+  background: #2d71a1;
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  color: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+
+.pad .col-md-12 {
+	  padding-top:100px;
+  }
+  
+ li img:hover {
+    border: 4px solid #9cb2f1;
+}
+
+#contact {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row li {
+  float: left;
+  list-style-type: none;
+  text-align:center;
+  padding: 15px;
+}
+.row img{
+  display: inline-block;
+  height: auto;
+  vertical-align: middle;
+}
+
+#gradient {
+  border: 30px solid #cbceef;
+}
+
+#gradient2 {
+  border: 30px solid #b88c8d;
+}
+
+#gradient3 {
+  border: 30px solid #93a0d4;
+}
+
+#gradient4 {
+  border: 30px solid #898584;
+}
+
+#gradient5 {
+  border: 30px solid #dc5f7d;
+}
+
+#gradient6 {
+  border: 30px solid #d1a679;
+}
+
+#gradient7 {
+  border: 30px solid #d9604f;
+}
+
+#gradient8 {
+  border: 30px solid #c088b7;
+}
+
+#gradient9 {
+  border: 30px solid #d28b3b;
+}
+
+#gradient10 {
+  border: 30px solid #5fb495;
+}
+
+@media screen and (max-width: 600px) {
+  .row img{
+  display: inline-block;
+  height: auto;
+  vertical-align: middle;
+  width: 80%;
+  }
+  h1 {
+  font-size: 24px;
+  }
+  
+  .pad .col-md-12 {
+	  padding-top:20px;
+  }
+  
+}
+
